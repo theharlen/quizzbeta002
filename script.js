@@ -12,7 +12,7 @@ function verificarResposta() {
         divRespostaCorreta.innerHTML = "Certa Resposta!<br>" + resposta.toUpperCase();
 
         // Definimos a fonte da imagem e a tornamos visível
-        imagemResposta.src = 'G:/My Drive/Programação/JavaScript/QuizzBeta002/cupom.jpg';
+        imagemResposta.src = '/cupom.jpg';
         imagemResposta.style.display = "block";
         
         divRespostaCorreta.style.display = "block";
@@ -26,6 +26,6 @@ function verificarResposta() {
 }
 
 function tocarAudio() {
-    var audio = new Audio('G:/My Drive/Programação/JavaScript/QuizzBeta002/certa.mp3');
+    var audio = new Audio('/certa.mp3');
     audio.play();
 }
