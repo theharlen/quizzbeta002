@@ -1,0 +1,6 @@
+#imagemResposta {
+    display: none; 
+    width: 200px; /* Aumente a largura */
+    height: auto; 
+    margin-top: -20px; /* Margem negativa para aproximar a imagem do texto acima */
+}

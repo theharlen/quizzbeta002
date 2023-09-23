@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Áudio</title>
+    <style>
+        #respostaCorreta {
+            display: none;
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            padding: 50px 0;
+            background-image: url('G:/My Drive/Programação/JavaScript/QuizzBeta002/fireworks6.gif');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+            color: green;
+            width: 500px;  /* Largura da div e do GIF */
+            height: 500px; /* Altura da div e do GIF */  
+        }
+
+        #imagemResposta {
+            display: none; 
+            width: 200px; /* Aumente a largura */
+            height: auto; 
+            margin-top: -20px; /* Margem negativa para aproximar a imagem do texto acima */
+        }
+    </style>
+</head>
+<body>
+
+<h2 id="tituloPergunta">Qual é a capital da França?</h2>
+<input type="text" id="resposta" placeholder="Digite sua resposta">
+<button id="botaoVerificar" onclick="verificarResposta()">Verificar</button>
+
+<div id="respostaCorreta">Certa Resposta!<br>
+    <img id="imagemResposta" src="G:/My Drive/Programação/JavaScript/QuizzBeta002/fireworks2.gif" alt="Imagem de Resposta">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
